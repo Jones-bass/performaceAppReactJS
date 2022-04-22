@@ -7,3 +7,10 @@
 
 ##
 O useMemo utiliza uma técnica já conhecida chamada memoization , que consiste em guardar o valor de retorno de uma função a partir dos valores de entrada (Parâmetros).
+
+uando usar =>
+* Calculos pesados
+* Igualdade referencial (Quando a gente passa referencia para o componente filho)
+
+##
+O useCallback é um Hook adicional, mas há um motivo para ele existir. Esse Hook é utilizado para melhorar o desempenho do aplicativo, evitando renderizações e processamentos desnecessários.
